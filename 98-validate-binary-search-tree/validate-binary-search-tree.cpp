@@ -33,7 +33,7 @@ public:
     bool isValidBST(TreeNode* root) {
 
         helper(root);
-        /// is_sorted check krega ki vector sorted hai ki nahi
+        /// check kro ki array sorted hai ki nahi
         return isStrictlyIncreasing(result);
 
     }
